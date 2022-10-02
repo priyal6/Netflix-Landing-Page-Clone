@@ -7,7 +7,7 @@ function selectItem(e) {
     removeShow();
     
     // Add border to current tab 
-    
+    this.classList.add('tab-border');
     // Grab content item from Dom 
     const tabContentItem = document.getElementById(this.id+'-content');
     // const tabContentItem2 = document.querySelector('#tab-2-content');
